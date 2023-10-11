@@ -1,0 +1,105 @@
+/* meng-import font dari google ("google-font", pilih yg pojok kanan atas, pilih import.)*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Outfit:wght@300&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+    /* background linktree , website : "color-hunt"*/
+    /* background: #dbd9ce; */
+
+    /* background image*/
+    background-image: url(asset/an.bg.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    /* background-color: white; */
+    color: black;
+    /* font-size: 25px; */
+
+    /* layout dengan flexbox */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  /* tambahan */
+.dark-mode {
+    /* background-color: black;*/
+    color: white;
+    background-image: url(asset/sky.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+  }
+
+.mode {
+    position: absolute; 
+    right: 0; 
+    top: 630px; 
+    width: 200px;
+}
+/* sampe sini */
+
+
+.container {
+    /* set width container */
+    width: 90%;
+    max-width: 680%;
+    margin: 10px;
+    padding: 50px 0px 10px 0px;
+
+    /* tata letak flexbox */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* text-align: center; */
+}
+
+.img-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.title-container {
+    /* tata letak */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+    /* color: black; */
+    font-size: 110%;
+}
+
+/* link item elements */
+.link-item {
+    width: 50%;
+    height: 50px;
+    margin: 16px;
+    border-radius: 20px;
+
+    /* text color and bg color */
+    color: beige;
+    text-decoration: wavy;
+    background-color: rgb(102, 138, 224);
+
+    /* tata letak */
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p {
+    margin-right: 60px;
+}
+
